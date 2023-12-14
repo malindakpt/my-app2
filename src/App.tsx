@@ -1,12 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import { Footer } from './components/footer/footer';
 import { TopBar } from './components/topbar/topbar';
 
 function App() {
   return (
     <div>
       <TopBar />
+      <h1> BODY</h1>
+      <Footer />
     </div>
   );
 }
