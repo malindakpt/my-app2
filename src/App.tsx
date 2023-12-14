@@ -21,9 +21,11 @@ function App() {
   return (
     <div>
       <TopBar />
+      <div>
       {
         bannerData.map(b => <Banner title={b.title} body={b.body} leftImage={b.leftImage} rightImage={b.rightImage} />)
       }
+      </div>
       <Footer />
     </div>
   );

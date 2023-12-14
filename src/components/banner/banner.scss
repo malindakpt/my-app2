@@ -1,0 +1,36 @@
+.banner {
+    width: 100%;
+
+    .image {
+        width: 40%;
+        // float: left;
+    }
+
+    .content {
+
+        width: 50%;
+        // float: left;
+
+        .title {
+            color: #6B3CC9;
+            font-size: 27px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 33px;
+            /* 122.222% */
+            letter-spacing: 0.4px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            margin-top: 20px;
+            border-radius: 4px;
+            background: #F28D35;
+            color: white;
+            padding: 12px 20px;
+            width: 100px;
+        }
+
+    }
+}
