@@ -1,5 +1,5 @@
 .banner {
-    width: 100%;
+    width: 80%;
     max-width: 1000px;
     display: flex;
     align-items: center;
@@ -9,10 +9,11 @@
     @media screen and (max-width: 375px) {
         flex-direction: column;
     }
-    
+
 
     .image {
         width: 40%;
+
         @media screen and (max-width: 375px) {
             width: 100%;
         }
@@ -48,12 +49,20 @@
         }
 
         .button {
+            text-align: center;
             margin-top: 20px;
             border-radius: 4px;
             background: #F28D35;
             color: white;
             padding: 12px 20px;
             width: 100px;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100%;
+            /* 14px */
+            letter-spacing: -0.28px;
+            text-transform: uppercase;
         }
 
     }

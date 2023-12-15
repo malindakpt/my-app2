@@ -1,0 +1,42 @@
+.middle-banner {
+    width: 550px;
+    height: 250px;
+    color: white;
+    background: linear-gradient(257deg, #1CBDDD 27.86%, #4DCA79 100%), #FFF;
+    padding: 20px;
+    margin: 60px 80px;
+
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 48px */
+    letter-spacing: -0.96px;
+    text-transform: capitalize;
+
+    @media screen and (max-width: 768px) {
+        margin: 0px;
+    }
+
+    @media screen and (max-width: 375px) {
+        font-size: 36px;
+    }
+
+    .button {
+        margin-top: 15px;
+        border-radius: 4px;
+        background: #F28D35;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        /* 14px */
+        letter-spacing: -0.28px;
+        text-transform: uppercase;
+        width: 200px;
+        text-align: center;
+        padding: 15px;
+
+      
+    }
+}

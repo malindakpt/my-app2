@@ -2,6 +2,10 @@
     background: #6B3CC9;
     padding: 26px 40px;
 
+    @media screen and (max-width: 675px) {
+        padding: 16px 20px;
+    }
+
     display: flex;
     justify-content: space-between;
     align-items: center;
