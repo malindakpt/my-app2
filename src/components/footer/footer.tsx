@@ -5,7 +5,7 @@ export const Footer = () => <>
     <div className="footer">
         <div className='top'>
             <div className="left">
-                <div className='logo'>
+                <div className='left-content'>
                     <div><img src={logo} /></div>
                     <div className='left-text'>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</div>
                 </div>

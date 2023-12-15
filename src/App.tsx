@@ -3,6 +3,7 @@ import { TopBar } from './components/topbar/topbar';
 import img1 from './assets/banner1.png';
 import img2 from './assets/banner2.png';
 import { Banner } from './components/banner/banner';
+import { MiddleContent } from './components/middleContent/middleContent';
 
 const bannerData = [{
   title: 'Web & Mobile App Development',
@@ -20,7 +21,8 @@ const bannerData = [{
 function App() {
   return (
     <div>
-      <TopBar />     
+      <TopBar />  
+      <MiddleContent />   
       {
         bannerData.map(b => <Banner title={b.title} body={b.body} leftImage={b.leftImage} rightImage={b.rightImage} />)
       }      

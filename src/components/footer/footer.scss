@@ -1,52 +1,78 @@
 .footer {
     background: #6B3CC9;
+    // width: calc(100% - 160px);
     width: 100%;
+
     float: left;
     color: white;
-    padding: 40px 80px 20px 80px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    // padding: 40px 80px 20px 80px;
 
-    @media screen and (max-width: 675px) {
-        padding: 20px;
+    @media screen and (max-width: 768px) {
+        padding-top: 20px;
     }
 
     .top {
         width: 100%;
+        // padding: 40px 80px 20px 80px;
 
         .left {
+           
             width: 50%;
-            float: left;
-            @media screen and (max-width: 675px) {
+
+            @media screen and (max-width: 768px) {
                 width: 100%;
+                // padding-top: 50px;
             }
 
-            .left-text {
-                margin-top: 20px;
-                color: #FFF;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                max-width: 500px;
+            float: left;
+            
+            .left-content {
+                padding-left: 50px;
 
-                @media screen and (max-width: 675px) {
-                    width: 100%;
-                    // padding-top: 50px;
+                @media screen and (max-width: 768px) {
+                    padding-left: 20px;
                 }
-            }
+
+                .left-text {
+                    margin-top: 20px;
+                    color: #FFF;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    max-width: 500px;
+    
+                    @media screen and (max-width: 768px) {
+                        width: 100%;
+                    }
+                }
+            }         
         }
 
         .right {
             width: 50%;
             display: flex;
-            justify-content: space-around;
+            justify-content: flex-start;
 
-            @media screen and (max-width: 675px) {
-                width: 100%;
-                padding-top: 50px;
+            @media screen and (max-width: 375px) {
+                flex-direction: column;
             }
 
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
          
             .column {
+                @media screen and (max-width: 768px) {
+                    padding-top: 50px;
+                    padding-left: 20px;
+                }
+   
+                padding-left: 50px;
+                padding-right: 50px;
+
                 display: flex;
                 flex-direction: column;
                 gap: 12px;
@@ -72,6 +98,7 @@
             border-top: solid white 1px;
             max-width: 800px;
             margin: 10px auto;
+            width: 80%;
         }
     }
 }
